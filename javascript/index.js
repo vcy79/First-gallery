@@ -47,7 +47,6 @@ document.addEventListener('DOMContentLoaded', () => {
       console.log('Button clicked');
       const searchTerm = document.getElementById('searchInput').value.toLowerCase();
       filterImagesBySearchTerm(searchTerm);
-      searchInput.value ='';
     });
   
   
